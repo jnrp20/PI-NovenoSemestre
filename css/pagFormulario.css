@@ -1,0 +1,218 @@
+body{
+  
+    padding: 0;
+   
+    background-size: cover;
+    background-position:top;
+    font-family: sans-serif;
+     margin: 0;
+}
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 139, 40);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+   
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+
+}
+
+.ai{
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(6, 114, 78);
+}
+
+.h2ColorGris{
+    color: rgb(70, 68, 68);
+}
+
+.ColorVerdeOscuro{
+    color: rgb(6, 114, 78);
+}
+
+
+
+.titulo_pag {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.tamañologo {
+   
+    height: 80px;
+
+}
+
+.padre{
+    display: flex;
+    
+    width: 100%;
+}
+.espacioReservado{
+  
+
+    text-decoration: none;
+    background-color: rgba(139, 184, 159, 0.808);
+    width: 15%;
+    height: auto;
+}
+.menuOpcionesPadre{
+
+    display: flex;
+    align-items: center;
+  
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+  
+  
+}
+
+.tamañobotones{
+    height: 16%;
+}
+
+.menuOpciones{
+    text-decoration: none;
+    text-align: center;
+       margin: 8% 0;
+       
+      padding: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height:2%;
+}
+
+.espacioTextoMenu{
+    padding-left: 8%;
+    color: white;
+    width: auto;
+
+}
+.espaciadoPreguntas{
+   
+    margin-bottom: 5%;
+
+
+}
+
+
+
+/* aqui aparecen los resultados */
+
+
+.resultado{
+    width: 120%;
+    display: none;
+
+}
+
+
+.divdentro{
+    margin-top: 4%;
+    display: flex;
+   
+    
+}
+
+.general{
+    display: flex;
+ height: fit-content;
+   
+}
+
+.datosybaras{
+
+  padding-left: 4%;
+ 
+}
+
+
+
+
+
+
+
+.preguntas{
+    
+    
+    padding: 0 5%;
+    margin-top: 2%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    width: 60%;
+}
+.botonFin{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.paddingLeft{
+    padding-left: 4%;
+   
+    height: fit-content;
+}
+
+.botonesResultado{
+    margin-top: 2%;
+
+    /* se usa text align porque el div es de tipo block y no flex */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ventana modal para las recomendaciones */
+
+.titulosolucion{
+    color: rgb(231, 60, 60);
+}
+
+
+
+
+
+
+.menuOpcionesPadre:hover{
+    background-color: rgba(113, 151, 130, 0.808);
+}
+/* **************************** */
+
+

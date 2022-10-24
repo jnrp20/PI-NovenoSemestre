@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/pagFormulario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+    <title>CUESTIONARIO AUDITORIA</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="/html/index.html">
+            <img class="tamañologo" src="/img/pag web/ESCUDO-BLANCO-H.png" alt="">
+        </a>
+        <h3 class="titulo_pag">AUDITORIA</h3>
+        <h4>*NOMBRE DEL USUARIO</h4>
+    </header>
+
+    <div class="padre">
+        <div class="espacioReservado">
+            <div class="tamañobotones">
+                <div class="menuOpcionesPadre">
+                    <a class="ai" href="">
+                        <div class="menuOpciones">
+                            <img src="/img/pag formulario/persona.png" alt="" width="50px" height="50px">
+                            <h3 class="espacioTextoMenu">Mi cuenta</h3>
+
+                        </div>
+                    </a>
+                </div>
+
+                <!--  <div class="menuOpcionesPadre">
+                    <a class="ai" href="">
+                        <div class="menuOpciones">
+                            <img src="/img/pag formulario/historial.png" alt="" width="50px" height="50px">
+                            <h3 class="espacioTextoMenu">Historial</h3>
+
+                        </div>
+                    </a>
+                </div> -->
+
+                <div class="menuOpcionesPadre">
+                    <a class="ai" href="index.html">
+                        <div class="menuOpciones">
+                            <img src="/img/pag formulario/cerrar sesion.png" alt="" width="50px" height="50px">
+                            <h3 class="espacioTextoMenu">cerrar sesión</h3>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="preguntas" id="divpreguntas">
+            <div id="desaparecer">
+
+                <form id="formularioRespuestas">
+                    <h1 class="ColorVerdeOscuro">PREGUNTAS REFERENTES A COMUNICACIÓN DE DATOS</h1>
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta1" class="h2ColorGris">1. ¿Existen sistemas de comunicación alternativos en caso de averia o
+                            fallo?
+                        </h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p1">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta2" class="h2ColorGris">2. ¿Se dispone de dos proveedores de comunicaciones, o en
+                            su defecto de
+                            un único proveedor con dos puntos de acceso distintos y que recorran distintos caminos?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p2">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta3" class="h2ColorGris">3. ¿Existe algún plano de la instalación del cableado y
+                            sistemas de
+                            comunicaciones en el edificio? </h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p3">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta4" class="h2ColorGris">4. ¿Se realizan pruebas periódicas para garantizar la
+                            calidad de las
+                            lineas
+                            y sistemas de comunicación?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p4">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta5" class="h2ColorGris">5.Los equipos de comunicaciones, se encuentran en un
+                            lugar de
+                            acceso restringido?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p5">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <h1 class="ColorVerdeOscuro">PREGUNTAS REFERENTES A HARDWARE Y SOFTWARE</h1>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta6" class="h2ColorGris">6. ¿Existe un plan establecido para el mantenimiento y la
+                            protección del
+                            hardware y de los soportes de almacenamiento de la información?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p6">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta7" class="h2ColorGris">7. ¿Se registran y documentan todos los fallos software
+                            que se detectan?
+                        </h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p7">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta8" class="h2ColorGris">8. ¿Se respetan los tiempos de vida medios de los
+                            soportes y las
+                            condiciones
+                            de almacenamiento de los mismos?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p8">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta9" class="h2ColorGris">9. ¿Existen al menos dos copias de software de aplicación
+                            y de base,
+                            almacenadas en lugares distintos al de su utilización (al menos una de las copias) para el
+                            caso
+                            de que se tenga que realizar una nueva instalación?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p9">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <hr>
+                    <h1 class="ColorVerdeOscuro">PREGUNTAS REFERENTES A LA PLANTA FÍSICA Y EMPLEADOS</h1>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta10" class="h2ColorGris">10. ¿Existen elementos de protección contra
+                            sobretensión?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p10">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta11" class="h2ColorGris">11. ¿Se realizan inspecciones periódicas de todas las
+                            instalaciones de
+                            suministro eléctrico?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p11">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta12" class="h2ColorGris">12. ¿Se dan conferencias sobre Seguridad Física a todos
+                            los empleados al
+                            incorporase al trabajo y de forma periódica?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p12">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta13" class="h2ColorGris">13. ¿Existe un registro escrito o impreso de todos los
+                            accesos a todas
+                            las
+                            salas de equipos informáticos?
+                        </h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p13">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta14" class="h2ColorGris">14. ¿Existe un sistema de control de acceso biométrico?
+                        </h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p14">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta15" class="h2ColorGris">15. ¿Las oficinas se cierran con llave y se verifica su
+                            cierre al
+                            terminar la jornada laboral?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p15">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div class="espaciadoPreguntas">
+                        <h2 id="pregunta16" class="h2ColorGris">16. ¿Existen procedimientos especificos de control de
+                            acceso para el
+                            personal ajeno a la empresa?</h2>
+                        <select class="form-select" size="2" aria-label="size 3 select example" id="p16">
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                </form>
+
+
+
+                <div class="botonFin">
+                    <button type="button" class="btn btn-success btn-lg " onclick="mostrarRespuesta()">FINALIZAR
+                        CUESTIONARIO</button>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <!--   ******************************************secccion resultados************************************* -->
+
+            <div id="aparecerResultados" class="resultado">
+
+                <h2 class="ColorVerdeOscuro" class="h2ColorGris" id="tituloREsultado">ESTOS FUERON LOS RESULTADOS</h2>
+                <div class="divdentro">
+
+                    <div class="card" style="width: 18rem;">
+                        <img id="emoji" src="/img/pag formulario/bajo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PUNTAJE GENERAL DE LA AUDITORIA</h5>
+                            <h4 id="nivel" class="card-text">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</h4>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="datosybaras">
+                        <div class="general">
+
+
+
+
+                            <div class="paddingLeft">
+                                <h1 id="porcentaje"></h1>
+                                <h4>SEGURIDAD INFORMÁTICA</h4>
+                            </div>
+
+                            <div class="paddingLeft">
+                                <h1 id="totalRespuestas"></h1>
+                                <h4>Requerimientos cumplidos</h4>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                        <hr>
+
+
+
+
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                RESULTADOS POR CATEGORIA
+                            </div>
+                            <div class="card-body">
+                                <div class="progress">
+                                    <div id="barraConDat"
+                                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 45%">8.65%</div>
+                                </div>
+                                <p>COMUNICACIÓN DE DATOS</p>
+
+
+
+
+                                <div class="progress">
+                                    <div id="barrahys"
+                                        class="progress-bar progress-bar-striped progress-bar-animated bg-success bg-success"
+                                        role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 45%">8.65%</div>
+                                </div>
+                                <p>HARDWARE Y SOFTWARE</p>
+
+
+
+                                <div class="progress">
+                                    <div id="barraEmpleados"
+                                        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 45%">8.65%</div>
+                                </div>
+                                <p>PLANTA FÍSICA Y EMPLEADOS</p>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- botones ver recomendaciones e intentar de nuevo -->
+                <div class="botonesResultado">
+
+                    <!-- este boton venia con en modal de boostrap -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        ver recomendaciones
+                    </button>
+                    <button onclick="document.location.reload();" type="button" class="btn btn-secondary">Volver a
+                        intentar</button>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <!--  modal para las recomendaciones -->
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">ADITORIA EN SEGURIDAD INFORMÁTICA</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="modal-body" class="modal-body">
+
+                        <h1 class="ColorVerdeOscuro"id="titulo1-modal">FELICIDADES, NO ENCONTRAMOS VULNERABILIDADES</h1>
+                        <h4 id="contenido1-modal"></h4>
+                        
+                       
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <footer class="footer">
+
+        <a href="https://www.ucundinamarca.edu.co/">
+            <img src="/img/pag web/ESCUDO-BLANCO-H.png" alt="" width=210px" height="150px">
+        </a>
+        <h1>PROYECTO INTEGRADOR NOVENO SEMESTRE</h1>
+        <p>Integrantes <br>
+            Bryan Felipe Roa Alvarado<br>
+            Duvan Hernando Gómez Prieto<br>
+            Juan Nicolas Romero Pineda
+        </p>
+    </footer>
+
+    <script src="/js/pagFormulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

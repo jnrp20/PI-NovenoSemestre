@@ -1,0 +1,92 @@
+body{
+   
+    padding: 0;
+    background: url(/img/iniciarsesion/fondoInicioSesion.jpg);   
+    background-size: cover;
+    background-position:top;
+    font-family: sans-serif;
+     margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgb(60, 61, 60);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+   
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+
+}
+
+.titulo_pag {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.tamañologo {
+    height: 80px;
+
+}
+
+.divafuera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+   
+    
+}
+
+.divdentro{
+    text-align: center;
+
+    padding: 50px;
+    width: 30%;
+ background-color: white;
+    box-shadow: -1px 0px 21px 13px rgba(59,57,59,0.8);
+    border-radius: 54px 54px 54px 54px;
+    -moz-border-radius: 54px 54px 54px 54px;
+    -webkit-border-radius: 54px 54px 54px 54px;
+
+
+}
+
+.formulario{
+  
+    padding: 20px;
+    text-align: start;
+}
+
+.InputFormulario{
+    padding: 10px 50px;
+     font-size: 21px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
+}
+.botoniniciar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px 150px;
+    
+}
+
+.textocolor{
+    color: rgb(124, 123, 123);
+}
