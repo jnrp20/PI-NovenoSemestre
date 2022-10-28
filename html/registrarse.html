@@ -100,12 +100,59 @@
                     <div class="form-floating">
                         <input type="password" class="form-control" id="floatingInputGroup1" placeholder="Username"
                             name="confContraseña">
-                        <label for="floatingInputGroup1">CONFIRMAR ONTRASEÑA</label>
+                        <label for="floatingInputGroup1">CONFIRMAR CONTRASEÑA</label>
                     </div>
                 </div>
             </form>
 
+        
+
+
+            
+           <div class="divTyC">
+             <div class="form-check form-switch">
+                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                 <label class="form-check-label" for="flexSwitchCheckDefault"> 
+
+                    ACEPTO LOS
+                     <a class="terminosCondiciones" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          TÉRMINIOS Y CONDICIONES
+                     </a></label>
+             </div>
+                
+           </div>
+
+
+            <!-- modal terminos y condiciones -->
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">TÉRMINOS Y CONDICIONES DEL SERVICIO</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <hr>
+<br>
+
+           
             <button onclick="crearcuenta()" type="button" class="btn btn-secondary btn-lg">CREAR CUENTA</button>
             <h1></h1>
             <h6>¿Ya tiene un usuario? Ingresa</h6>

@@ -1,7 +1,8 @@
 body{
    
     padding: 0;
-    background: url(/img/iniciarsesion/fondoInicioSesion.jpg);   
+    background: url(/img/index/fotoportada1.jpg);
+    /* background: url(/img/iniciarsesion/fondoInicioSesion.jpg);  */  
     background-size: cover;
     background-position:top;
     font-family: sans-serif;
@@ -20,6 +21,16 @@ header {
     left: 0;
 
 
+
+}
+.terminosCondiciones{
+    text-decoration: underline;
+}
+
+.divTyC{
+
+display: flex;
+justify-content: center;
 
 }
 

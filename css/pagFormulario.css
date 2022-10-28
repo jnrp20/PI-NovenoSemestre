@@ -11,7 +11,8 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(20, 139, 40);
+    /* background-color: rgb(20, 139, 40); */
+    background-color: rgb(112, 109, 109);
     align-items: center;
     justify-content: space-between;
     padding: 5px 20px;
@@ -42,7 +43,8 @@ footer{
     margin: 0;
     width: 100%;
     height: 200px;
-    background-color: rgb(6, 114, 78);
+    /* background-color: rgb(6, 114, 78); */
+    background-color: rgb(63, 62, 62);
 }
 
 .h2ColorGris{
@@ -73,12 +75,14 @@ footer{
     display: flex;
     
     width: 100%;
+  
 }
 .espacioReservado{
   
 
     text-decoration: none;
-    background-color: rgba(139, 184, 159, 0.808);
+    /* background-color: rgba(139, 184, 159, 0.808); */
+    background-color: rgba(133, 136, 134, 0.808);
     width: 15%;
     height: auto;
 }
